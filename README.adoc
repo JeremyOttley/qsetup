@@ -1,3 +1,14 @@
-= qsetup
+= Qpy Setup
+Jeremy Ottley <jeremy.ottley@gmail.com>
+1.0, July 1, 2019, qpy setup
+:toc:
+:icons: font
 
-Setup files for Qtil on Ubuntu
+== Python3 Script to install xonsh and qtile
+
+.Steps
+. check if pip3 exists on system
+. if pip3 exists on system, upgrade pip3
+. if pip3 does not exist, install it and then upgrade it
+. use sudo pip3 to install xonsh and qtile
+. extras?
