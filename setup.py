@@ -36,3 +36,20 @@ def build_all():
   subprocess.run(["touch", "~/.xonshrc"])
 
 build_all()
+
+
+xonshrc = """
+$PATH.append('/home/gazbit/bin')
+$DEV = $HOME +'/.workspace'
+$PROMPT = '自由 [{short_cwd}] {gitstatus}  '
+
+#ALIASES
+##SYS
+aliases['la'] = 'ls -a'
+
+##DIR JUMPS
+aliases['work'] = 'cd $DEV'
+aliases['..'] = 'cd ..'
+aliases['fuck'] = 'sudo !!'
+aliases['feh-set'] = 'feh --bg-fill'
+"""
