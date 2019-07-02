@@ -19,3 +19,20 @@ def check():
 ##: Step 2: install prerequisites
 def install():
 
+###
+# TEST AREA
+###
+
+def install_pip():
+  subprocess.run(["curl", "https://bootstrap.pypa.io/get-pip.py", "-o", "get-pip.py"])
+  subprocess.run(["python", "get-pip.py", "--user"])
+
+def pip_install_xonsh():
+  subprocess.run(["pip install", "--user", "xonsh", "ptk", "pygments>=2.2"])
+
+def build_all():
+  install_pip()
+  pip_install_xonsh()
+  subprocess.run(["touch", "~/.xonshrc"])
+
+build_all()
