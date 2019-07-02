@@ -37,8 +37,9 @@ def build_all():
 
 build_all()
 
-
-xonshrc = """
+def write_config():
+  f = open("test.py", "a")
+  f.write("""
 $PATH.append('/home/gazbit/bin')
 $DEV = $HOME +'/.workspace'
 $PROMPT = '自由 [{short_cwd}] {gitstatus}  '
@@ -53,3 +54,9 @@ aliases['..'] = 'cd ..'
 aliases['fuck'] = 'sudo !!'
 aliases['feh-set'] = 'feh --bg-fill'
 """
+  )
+  f.close()
+
+write_config()
+
+
