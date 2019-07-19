@@ -23,8 +23,4 @@ else
   end
 end
 ----
-//. check if pip3 exists on system
-//. if pip3 exists on system, upgrade pip3
-//. if pip3 does not exist, install it and then upgrade it
-//. use sudo pip3 to install xonsh and qtile
-//. extras?
+
