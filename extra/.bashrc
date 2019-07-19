@@ -35,3 +35,11 @@ alias open='xdg-open'
 alias ..='cd ..'
 alias ...='cd ..; cd ..'
 alias ....='cd ..; cd ..; cd ..'
+alias python='python3'
+alias pip='pip3'
+alias vimrc='vim ~/.vimrc'
+alias bashrc='vim ~/.bash_profile'
+
+export GREP_OPTIONS=' — color=auto'
+export EDITOR=vim
+
