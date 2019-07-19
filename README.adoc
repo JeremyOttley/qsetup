@@ -14,7 +14,7 @@ if pip3 exists
   pip3 install xcffib cairocffi qtile
   pip3 install xonsh[ptk,linux,pygments>=2.2]
 elsif pip3 does not exist 
-  <install pip3>
+  puts "You need to install pip3!"
   pip3 install --upgrade pip
   pip3 install xcffib cairocffi qtile
   pip3 install xonsh[ptk,linux,pygments>=2.2]
