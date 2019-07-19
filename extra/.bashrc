@@ -1,17 +1,3 @@
-## Aliases
-alias q=’exit’
-alias c=’clear’
-alias h=’history’
-alias cs=’clear;ls’
-alias p=’cat’
-alias pd=’pwd’
-alias lsa=’ls -a’
-alias lsl=’ls -l’
-alias pd=’pwd’
-alias t=’time’
-alias k='kill'
-alias null=’/dev/null’
-
 ## Virtualenv
 
 function set_virtualenv () {
@@ -29,3 +15,23 @@ function ps1command () {
 
 ps1command;
 ##
+
+## Aliases
+alias q=’exit’
+alias c=’clear’
+alias h=’history’
+alias cs=’clear;ls’
+alias p=’cat’
+alias pd=’pwd’
+alias lsa=’ls -a’
+alias lsl=’ls -l’
+alias pd=’pwd’
+alias t=’time’
+alias k='kill'
+alias null=’/dev/null’
+alias home='cd ~'
+alias root='cd /'
+alias open='xdg-open'
+alias ..='cd ..'
+alias ...='cd ..; cd ..'
+alias ....='cd ..; cd ..; cd ..'
