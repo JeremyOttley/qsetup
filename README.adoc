@@ -10,12 +10,12 @@ Jeremy Ottley <jeremy.ottley@gmail.com>
 .Steps in pseudo-code:
 ----
 if pip3 exists
-  upgrade pip3 then;
-  pip3 install components;
+  pip3 install --upgrade pip
+  pip3 install xonsh qtile
 elsif pip3 does not exist 
-  install pip3 then;
-  upgrade pip3 then;
-  pip3 install components;
+  <install pip3>
+  pip3 install --upgrade pip
+  pip3 install xonsh qtile;
 else
   puts "What system is this?!"
   end
