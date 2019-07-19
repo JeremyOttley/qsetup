@@ -11,11 +11,13 @@ Jeremy Ottley <jeremy.ottley@gmail.com>
 ----
 if pip3 exists
   pip3 install --upgrade pip
-  pip3 install xonsh qtile
+  pip3 install xcffib cairocffi qtile
+  pip3 install xonsh[ptk,linux,pygments>=2.2]
 elsif pip3 does not exist 
   <install pip3>
   pip3 install --upgrade pip
-  pip3 install xonsh qtile;
+  pip3 install xcffib cairocffi qtile
+  pip3 install xonsh[ptk,linux,pygments>=2.2]
 else
   puts "What system is this?!"
   end
