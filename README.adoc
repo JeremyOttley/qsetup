@@ -7,9 +7,22 @@ Jeremy Ottley <jeremy.ottley@gmail.com>
 
 == Python3 Script to install xonsh and qtile
 
-.Steps
-. check if pip3 exists on system
-. if pip3 exists on system, upgrade pip3
-. if pip3 does not exist, install it and then upgrade it
-. use sudo pip3 to install xonsh and qtile
-. extras?
+.Steps in pseudo-code:
+----
+if pip3 exists
+  upgrade pip3 then;
+  pip3 install components;
+elsif pip3 does not exist 
+  install pip3 then;
+  upgrade pip3 then;
+  pip3 install components;
+else
+  puts "What system is this?!"
+  end
+end
+----
+//. check if pip3 exists on system
+//. if pip3 exists on system, upgrade pip3
+//. if pip3 does not exist, install it and then upgrade it
+//. use sudo pip3 to install xonsh and qtile
+//. extras?
