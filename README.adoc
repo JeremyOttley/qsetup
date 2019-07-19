@@ -1,8 +1,9 @@
 = Qpy Setup
 Jeremy Ottley <jeremy.ottley@gmail.com>
 1.0, July 1, 2019, qpy setup
-:toc:
+:toc: left
 :icons: font
+:source-highlighter: coderay
 
 == Python3 Script to install xonsh and qtile
 
