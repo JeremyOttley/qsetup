@@ -1,0 +1,3 @@
+# XONSH WIZARD START
+xontrib load apt_tabcomplete autojump autoxsh avox bashisms base16_shell click_tabcomplete coreutils direnv distributed docker_tabcomplete free_cwd fzf-widgets histcpy jedi kitty mpl powerline prompt_ret_code prompt_vi_mode readable-traceback schedule scrapy_tabcomplete ssh_agent vox vox_tabcomplete whole_word_jumping xo xonda z
+# XONSH WIZARD END
